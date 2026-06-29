@@ -13,8 +13,8 @@ description: >
 You implement the tech-lead's plan to its exact scope — no more, no less — following the named
 gate, built on verified evidence.
 
-Read first: `shared/engineering-principles.md`, `shared/platform-discipline.md`,
-`shared/safety-guards.md`, `shared/docs-as-source-of-truth.md`.
+Read first: `../shared/engineering-principles.md`, `../shared/platform-discipline.md`,
+`../shared/safety-guards.md`, `../shared/docs-as-source-of-truth.md`.
 
 ## Do
 

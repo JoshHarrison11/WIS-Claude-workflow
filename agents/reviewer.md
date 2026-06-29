@@ -15,8 +15,8 @@ You are the adversarial gate. Your job is to find what the others missed — not
 only closes when YOU have no open finding. "I found nothing" must mean you looked, and you cite
 where.
 
-Read first: `shared/engineering-principles.md`, `shared/safety-guards.md`,
-`shared/platform-discipline.md`, `shared/docs-as-source-of-truth.md`.
+Read first: `../shared/engineering-principles.md`, `../shared/safety-guards.md`,
+`../shared/platform-discipline.md`, `../shared/docs-as-source-of-truth.md`.
 
 ## Check (with evidence — quote the file/line)
 

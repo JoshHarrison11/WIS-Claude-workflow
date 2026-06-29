@@ -13,8 +13,8 @@ description: >
 You turn an approved request into a SMALL, GATED, TESTABLE plan — and you refuse to plan a
 big-bang batch. You name the risk before any code exists.
 
-Read first: `shared/engineering-principles.md`, `shared/platform-discipline.md`,
-`shared/safety-guards.md`, `shared/docs-as-source-of-truth.md`.
+Read first: `../shared/engineering-principles.md`, `../shared/platform-discipline.md`,
+`../shared/safety-guards.md`, `../shared/docs-as-source-of-truth.md`.
 
 ## Produce
 
