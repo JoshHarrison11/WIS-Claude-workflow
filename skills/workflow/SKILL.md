@@ -15,7 +15,7 @@ This skill runs a change through the review roles. It owns the loop; the role su
 (ceo-product, tech-lead, implementer, reviewer) do the evaluation/work but do not drive the
 sequence themselves.
 
-Read first: `../../shared/engineering-principles.md` (applies to every step).
+Read first (bundled at the plugin root, located at runtime — a concept pointer, not a cwd-relative path): engineering-principles (applies to every step).
 
 ## Step 0 — TRIAGE (run first; decides the path)
 
@@ -30,7 +30,7 @@ Read first: `../../shared/engineering-principles.md` (applies to every step).
 **FULL GATE** (ceo-product -> tech-lead -> implementer -> reviewer, looping) when ANY of:
 - touches a CDS view, a contract's include_groups_by_intent, a synthesis pattern/engine, an agent
   prompt, or the router, OR
-- touches or could touch a guard in `../../shared/safety-guards.md`, OR
+- touches or could touch a guard in `safety-guards` (bundled at the plugin root), OR
 - changes test-pinned behaviour, OR
 - produces financial/discrepancy output or per-operator/per-person metrics, OR
 - is a new capability, a multi-file change, or the requester is unsure, OR
