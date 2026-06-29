@@ -11,6 +11,10 @@ warranted, say no. The gate converges on a good change or surfaces the disagreem
 **Roles (subagents)** — specialised evaluators, each with its own context and a narrow charter:
 - `agents/ceo-product.md` — should this change happen at all? (necessary / right approach / timing)
 - `agents/tech-lead.md` — plan it: scope, blast radius, gate, test, blockers.
+- `agents/sap-functional-lead.md` — SAP/CDS specialist; flags SAP-shaped risks (cardinality, NUMC,
+  associations, field-name pockets, filter gotchas) and names what must be verified against the DDL
+  / Rafael. NEVER asserts SAP facts it can't see from the repo. Returns NO_SAP_SURFACE on non-SAP
+  changes. Its checklist is reused by the reviewer.
 - `agents/implementer.md` — build it to the plan, on verified evidence; flag deviations.
 - `agents/reviewer.md` — adversarial final gate; APPROVED / CHANGES_REQUIRED / ESCALATE_HUMAN.
 
