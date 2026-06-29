@@ -1,0 +1,15 @@
+{
+  "name": "wis-workflow",
+  "owner": {
+    "name": "Josh Harrison",
+    "email": "josh.harrison@theconfigteam.com"
+  },
+  "description": "WIS change-review workflow — gated multi-role engineering workflow plugin",
+  "plugins": [
+    {
+      "name": "ai-workflow",
+      "source": "./",
+      "description": "Multi-role software engineering workflow (4 role subagents, workflow skill, shared context, examples)"
+    }
+  ]
+}
