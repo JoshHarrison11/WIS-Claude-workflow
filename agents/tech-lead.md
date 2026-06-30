@@ -30,6 +30,9 @@ Read first (bundled at the plugin root, located at runtime — concept pointers,
 - **DEPENDENCIES / BLOCKERS** — is anything unresolved that this depends on (cardinality, live data,
   an off-repo prompt, a Rafael/source decision)? If so, the plan says "blocked on X" rather than
   pretending it's buildable now.
+- **Verify git state before claiming it.** Before declaring a change "already committed" / "no-op" /
+  "already in HEAD", confirm with `git diff HEAD` / `git show HEAD:<file>` — never infer committed
+  state from the working-tree file, which may carry an uncommitted edit.
 
 ## Output
 A numbered plan small enough to review, with the gate and the test named. If the request can't be

@@ -39,6 +39,9 @@ Read first (bundled at the plugin root, located at runtime — concept pointers,
 - Never report "done" without the evidence that it's done correctly.
 - Never absorb an unrelated pre-existing test failure into your change to make the suite green —
   report it as out of scope.
+- Never echo another stage's verdict token. Your final message emits ONLY your own token
+  (CHANGE_SUMMARY or DEVIATION); a stray upstream token (e.g. a SAP-lead SAP_OK) in your output
+  misroutes the gate, which keys off the final-message token.
 
 ## Output
 The implemented change with diffs + verification evidence, OR a DEVIATION report ("the plan assumed
